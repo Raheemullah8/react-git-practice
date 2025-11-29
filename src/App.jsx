@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
+import Home from './Home';
+import Footer from './Footer';
 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <header className="App-header">
-        <p>
-          Welcome to my React Git Practice!
-        </p>
-      </header>
+      <main className="main-content">
+        <Home />
+      </main>
+      <Footer />
     </div>
   );
 }
