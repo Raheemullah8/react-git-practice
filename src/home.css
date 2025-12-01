@@ -1,0 +1,23 @@
+.git-info {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #e0f2fe;
+  border-radius: 8px;
+}
+
+.git-info h2 {
+  color: #0369a1;
+  margin-bottom: 1rem;
+}
+
+.git-info ul {
+  list-style: none;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.git-info li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #bae6fd;
+}
